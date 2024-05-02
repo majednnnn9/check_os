@@ -7,5 +7,6 @@ app.get('/', (req, res) => {
 
 
 app.listen(5000, () => {
-    console.log("runing is server is port    hello world jj ") 
+    console.log("runing is sext server is port ")
 })
+
