@@ -5,8 +5,7 @@ app.get('/', (req, res) => {
     res.json({ os: os.platform() })
 })
 
-
-app.listen(5000, () => {
-    console.log("runing is sext server is kk port ")
+const PORT = 8080 || process.env.PORT;
+app.listen(PORT, () => {
+    console.log("runing is server is port " + PORT)
 })
-
